@@ -1,4 +1,0 @@
-!#/usr/bin/py
-
-#comment (je moet toch ergens beginnen ;-)
-#duzzzz...

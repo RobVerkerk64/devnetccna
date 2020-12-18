@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+=======
+!#/usr/bin/py
+
+#comment (je moet toch ergens beginnen ;-)
+#duzzzz...
+>>>>>>> parent of 20e2ed7 (Versie 2: meer commentaar)

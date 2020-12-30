@@ -5,7 +5,16 @@
 #            new_part = 'en'
 # result wordt dan: 'testen'
 #
-# deze function pas alleen de eerste keer dat 'ie hem vindt aan
+# deze test is overbodig: mbv string replace kan dit ook...
 #
-define substitute(org_string,old_part,new_part):
-      
+def substitute(org_string,old_part,new_part):
+    '''substitute part of string'''
+    return org_string.replace(old_part,new_part)
+
+# Main program
+my_string = 'testing'
+kanweg    = 'ing'
+newtekst  = 'en'
+my_string = substitute(my_string,kanweg,newtekst)
+print (f'Result = {my_string}')
+#

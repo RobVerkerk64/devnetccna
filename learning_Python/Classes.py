@@ -23,6 +23,26 @@ class Switch(Router):
                f'Switch Management Address:{self.ip_address}\n'
         return desc
 
+class Aansluit:
+    pass
+
+class Employee:
+    def __init__(self, first, last, pay):
+        self.first = first
+        self.last = last
+        self.pay = pay
+        self.email = first + '.' + last + '@Company.com'
+
+    def fullname(self):
+        return '{} {}'.format(self.first, self.last)
+
+
+emp_1 = Employee('Rob','Verkerk',50000)
+emp_2 = Employee('Test','User',60000)
+
+
+print (emp_2.fullname())
+
 #router1 = Router('iosV','15.6.7','10.10.10.1')          # Hier wordt router1 echt gedefinieerd, eigenlijk wordt gebruik gemaakt van template Router
 #router2 = Router('isr4221', '16.9.5', '10.10.10.5')
 #switch1 = Switch('Cat9300','16.9.5','10.10.10.8')
